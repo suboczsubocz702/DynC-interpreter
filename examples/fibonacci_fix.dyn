@@ -1,0 +1,21 @@
+function fib(n) {
+	if (n <= 1) {
+		return n;
+	}
+
+	a = 0;
+	b = 1;
+	i = 2;
+
+	while (i <= n) {
+		c = a + b;
+		a = b;
+		b = c;
+		i = i + 1;
+	}
+
+	return b;
+}
+
+printf("fib(10) = %d\n", fib(10));
+printf("fib(20) = %d\n", fib(20));

@@ -1,0 +1,33 @@
+function bubble(arr, n) {
+	i = 0;
+
+	while (i < n) {
+		j = 0;
+
+		while (j < n - 1) {
+
+			if (arr[j] > arr[j + 1]) {
+				tmp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = tmp;
+			}
+
+			j = j + 1;
+		}
+
+		i = i + 1;
+	}
+}
+
+arr = make_object();
+
+arr[0] = 5;
+arr[1] = 1;
+arr[2] = 4;
+arr[3] = 2;
+arr[4] = 3;
+
+bubble(arr, 5);
+
+printf("%d %d %d %d %d\n",
+		arr[0], arr[1], arr[2], arr[3], arr[4]);

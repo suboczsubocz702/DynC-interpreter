@@ -1,0 +1,71 @@
+function linear_search(arr, size, target) {
+	i = 0;
+	while (i < size) {
+		printf("  Checking arr[%d] = %d vs target %d\n", i, arr[i], target);
+		if (arr[i] == target) {
+			printf("  MATCH found at %d! Returning...\n", i);
+			return i;
+		}
+		i = i + 1;
+	}
+	printf("  No match found, returning -1\n");
+	return -1;
+}
+
+arr = make_object();
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+arr[3] = 40;
+arr[4] = 50;
+
+size = 5;
+
+printf("Array: ");
+i = 0;
+while (i < size) {
+	printf("%d ", arr[i]);
+	i = i + 1;
+}
+printf("\n\n");
+
+printf("=== Testing linear_search for 40 ===\n");
+idx40 = linear_search(arr, size, 40);
+printf("linear_search returned: %d\n\n", idx40);
+
+printf("=== Testing linear_search for 100 ===\n");
+idx100 = linear_search(arr, size, 100);
+printf("linear_search returned: %d\n\n", idx100);
+
+printf("=== Testing linear_search for 10 ===\n");
+idx10 = linear_search(arr, size, 10);
+printf("linear_search returned: %d\n\n", idx10);
+
+printf("=== Testing linear_search for 50 ===\n");
+idx50 = linear_search(arr, size, 50);
+printf("linear_search returned: %d\n\n", idx50);
+
+printf("=== FINAL RESULTS ===\n");
+if (idx40 >= 0) {
+	printf("Found 40 at index: %d\n", idx40);
+} else {
+	printf("40 not found (code %d)\n", idx40);
+}
+
+if (idx100 >= 0) {
+	printf("Found 100 at index: %d\n", idx100);
+} else {
+	printf("100 not found (code %d)\n", idx100);
+}
+
+if (idx10 >= 0) {
+	printf("Found 10 at index: %d\n", idx10);
+} else {
+	printf("10 not found (code %d)\n", idx10);
+}
+
+if (idx50 >= 0) {
+	printf("Found 50 at index: %d\n", idx50);
+} else {
+	printf("50 not found (code %d)\n", idx50);
+}

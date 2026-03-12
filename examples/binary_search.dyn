@@ -1,0 +1,31 @@
+function binarySearch(arr, size, target) {
+	left = 0;
+	right = size - 1;
+
+	while (left <= right) {
+		mid = (left + right) / 2;
+		midVal = arr[mid];
+
+		if (midVal == target) {
+			return mid;
+		}
+		if (midVal < target) {
+			left = mid + 1;
+		} else {
+			right = mid - 1;
+		}
+	}
+	return -1;
+}
+
+arr = make_object();
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+arr[3] = 40;
+arr[4] = 50;
+arr[5] = 60;
+arr[6] = 70;
+
+printf("Binary search for 40: %d\n", binarySearch(arr, 7, 40));
+printf("Binary search for 45: %d\n", binarySearch(arr, 7, 45));
