@@ -129,7 +129,7 @@ Dyn/
 ├── DynC.c
 ├── README.md
 ├── docs/
-│   └── dyn_interpreter.tex
+│   └── dync_interpreter.tex
 ├── examples/
 │   ├── recursion.dyn
 │   ├── fibonacci_fix.dyn
