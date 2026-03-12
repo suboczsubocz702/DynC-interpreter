@@ -1,4 +1,4 @@
-# Dyn
+# DynC
 
 A dynamically typed experimental programming language implemented in C.
 
@@ -11,7 +11,7 @@ A dynamically typed experimental programming language implemented in C.
 
 # Overview
 
-Dyn is a lightweight scripting language runtime implemented as an **AST interpreter**.
+DynC is a lightweight scripting language runtime implemented as an **AST interpreter**.
 
 The project helped me learn how the core components of a programming language work:
 
@@ -22,13 +22,13 @@ The project helped me learn how the core components of a programming language wo
 - dynamic values
 - interpreter evaluation
 
-Dyn intentionally mixes design traits from several languages in order to explore their behavior when combined.
+DynC intentionally mixes design traits from several languages in order to explore their behavior when combined.
 
 ---
 
 # Example
 
-### Dyn program
+### DynC program
 
 ```dyn
 function fact(n) {
@@ -108,7 +108,7 @@ printf("%d\n", add(3,4))
 
 # Design Philosophy
 
-Dyn intentionally integrates features inspired by several programming languages.
+DynC intentionally integrates features inspired by several programming languages.
 
 | Feature | Inspired by |
 |------|------|
@@ -152,7 +152,7 @@ gcc DynC.c -o DynC
 
 # Running Programs
 
-Run a Dyn script by passing a `.dyn` file to the interpreter.
+Run a DynC script by passing a `.dyn` file to the interpreter.
 
 ```
 ./DynC program.dyn
@@ -217,7 +217,7 @@ docs/dyn_interpreter.tex
 
 # Why This Project Exists
 
-Dyn was created as an educational project to learn:
+DynC was created as an educational project to learn:
 
 - how interpreters work internally
 - how programming languages are implemented
