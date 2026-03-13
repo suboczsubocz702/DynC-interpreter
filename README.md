@@ -145,7 +145,7 @@ Dyn/
 Compile the interpreter using GCC.
 
 ```bash
-gcc DynC.c -o DynC
+gcc DynC.c -fsanitize=address -g -O1 -o dync -lm
 ```
 
 ---
