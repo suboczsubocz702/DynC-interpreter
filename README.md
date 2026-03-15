@@ -8,7 +8,8 @@ A dynamically typed experimental programming language implemented in C.
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
-
+DYNC IS CURRENTLY AVAILABLE ONLY AS A LINUX BINARY
+---
 # Overview
 
 DynC is a lightweight scripting language runtime implemented as an **AST interpreter**.
@@ -23,8 +24,6 @@ The project helped me learn how the core components of a programming language wo
 - interpreter evaluation
 
 DynC intentionally mixes design traits from several languages in order to explore their behavior when combined.
-
-DYNC IS CURRENTLY AVAILABLE ONLY AS A LINUX BINARY
 ---
 
 # Example
