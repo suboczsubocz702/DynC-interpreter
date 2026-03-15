@@ -24,6 +24,7 @@ The project helped me learn how the core components of a programming language wo
 
 DynC intentionally mixes design traits from several languages in order to explore their behavior when combined.
 
+DYNC IS CURRENTLY AVAILABLE ONLY AS A LINUX BINARY
 ---
 
 # Example
