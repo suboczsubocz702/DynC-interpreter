@@ -164,6 +164,15 @@ Example:
 ./DynC recursion.dyn
 ```
 
+Or when downloaded from release tab:
+```
+./dync-linux-x86_64 program.dyn 
+```
+Exaple:
+```
+./dync-linux-x86_64 recursion.dyn
+```
+ 
 ---
 
 # Language Overview
