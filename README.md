@@ -8,7 +8,7 @@ A dynamically typed experimental programming language implemented in C.
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
-DYNC IS CURRENTLY AVAILABLE ONLY AS A LINUX BINARY
+DYNC RELEASE IS CURRENTLY AVAILABLE ONLY AS A LINUX BINARY
 ---
 # Overview
 
